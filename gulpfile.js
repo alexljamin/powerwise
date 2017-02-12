@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     del = require('del');
 
 gulp.task('clean:docs', function(){
-    del.sync('./docs/*')
+    del.sync(['./docs/*','!./docs/CNAME'])
 })
 
 gulp.task('browserSync', function(){
