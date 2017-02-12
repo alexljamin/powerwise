@@ -4,6 +4,8 @@ Landing page for Powerwise site.
 
 ## Build
 
+Requires `gulp` installed.
+
 ```
 npm install
 gulp
